@@ -1,5 +1,5 @@
 min = int(1)
-max = int(100000)
+max = int(1000000)
 for n in range(min,max + 1):
    if n > 1:
        for i in range(2,n):
