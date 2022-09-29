@@ -1,6 +1,5 @@
 # Fonction etape1
 
-
 def etape1(chaine):
     n = len(chaine)
     chainebis = ""
@@ -31,13 +30,13 @@ def sommeChiffre(chaine):
 
 # Programme principal (main)
 carteBancaire = input(
-    "Saisir les 15 chiffres afficher sur la carte bancaire :")
+    "Saisir les 15 premiers chiffres affichés sur la carte bancaire :")
 chaine = etape1(carteBancaire)
 somme, cle = sommeChiffre(chaine)
 print("La somme des 15 chiffres obtenus lors de l'étape 1 est :", somme)
 print("La clé de Lunh est : ", cle)
 chiffre = input("Saisir le dernier chiffre de la carte bancaire: ")
 if chiffre != cle:
-    print("Le numero correspond à la clé de lunh !")
+    print("Le numéro correspond à la clé de lunh !")
 else:
-    print("Le numero correspond pas à la clé de lunh !")
+    print("Le numéro correspond pas à la clé de lunh !")
