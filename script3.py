@@ -31,7 +31,7 @@ def sommeChiffre(chaine):
 
 # Programme principal (main)
 carteBancaire = input(
-    "Saisir les 15 chiffres afficher sur la carte bancaire :")
+    "Saisir les 15 chiffres affichés sur la carte bancaire :")
 chaine = etape1(carteBancaire)
 somme, cle = sommeChiffre(chaine)
 print("La somme des 15 chiffres obtenus lors de l'étape 1 est :", somme)
